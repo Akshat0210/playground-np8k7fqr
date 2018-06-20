@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/Akshat0210/playground-np8k7fqr
 
 # Hands-on Demo
 
-@[Assertion Test]({"stubs": ["src/test/java/com/tu/code/junit5/AssestionsInJUnitFiveTest.java"], "command": "mvn test -Dtest=com.tu.code.junit5.AssestionsInJUnitFiveTest"})
+@[Assertion Test]({"stubs": ["src/test/java/com/tu/code/junit5/AssertionsInJUnitFiveTest.java"], "command": "mvn test -Dtest=com.tu.code.junit5.AssertionsInJUnitFiveTest"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
