@@ -3,7 +3,10 @@
 This playground lets you get started quickly with a simple working example using Maven and JUnit5. 
 
 
-# Hands-on Demo
+# Hands-on Exercise 
+* valid bullet
+- valid bullet
++ valid bullet
 
 @[Assertions In JUnit5 ]({"stubs": ["src/test/java/com/tu/code/junit5/AssertionsInJUnitFiveTest.java"], "command": "mvn test -Dtest=com.tu.code.junit5.AssertionsInJUnitFiveTest"})
 
