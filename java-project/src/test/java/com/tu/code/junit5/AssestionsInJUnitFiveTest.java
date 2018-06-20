@@ -18,6 +18,7 @@ class AssestionsInJUnitFiveTest {
 		} catch (AssertionError ae) {
 			// { autofold
 			success(false);
+			msg("Oops! 🐞", ae.getMessage());
 			//}
 		}
 	}
@@ -28,6 +29,6 @@ class AssestionsInJUnitFiveTest {
 	private static void msg(String channel, String msg) {
 		System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, msg));
 	}
-	// { autofold
+	//}
 
 }
