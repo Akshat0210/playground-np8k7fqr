@@ -11,4 +11,5 @@ This playground lets you get started quickly with a simple working example using
 + Write a HamCrest Matcher to check Map has key “John”
 + Write a HamCrest Matcher to check Map has entry “John ,  J”
 
+@[Assertions In JUnit5 ]({"stubs": ["src/test/java/com/tu/code/junit5/HamcrestMatchersTest.java"], "command": "mvn test -Dtest=com.tu.code.junit5.HamcrestMatchersTest"})
 
