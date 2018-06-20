@@ -18,12 +18,14 @@ class AssertionsInJUnitFiveTest {
 		} catch (AssertionError ae) {
 			// { autofold
 			success(false);
-			msg("Oops! ðŸ?ž", ae.getMessage());
+			msg("Oops! ðŸž", ae.getMessage());
 			//}
 		}
 	}
 	// { autofold
 	private static void success(boolean success) {
+		if(success)
+		msg("Awesome ðŸ‘");
 		System.out.println(String.format("TECHIO> success %s", success));
 	}
 	private static void msg(String channel, String msg) {
