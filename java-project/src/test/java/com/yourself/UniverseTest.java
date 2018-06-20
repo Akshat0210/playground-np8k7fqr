@@ -7,15 +7,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 // }
 public class UniverseTest {
 
 	@Test
 	public void test() throws FileNotFoundException {
 		try {
-			Assert.assertEquals("Akshat", "Akshat");
+			assertEquals("text", "text","failure - strings are not equal");
 			
 		} catch (AssertionError ae) {
 			success(false);
