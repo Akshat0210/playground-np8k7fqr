@@ -1,3 +1,6 @@
+// { autofold
+ 
+
 package com.yourself;
 
 import java.io.File;
@@ -6,7 +9,7 @@ import java.util.Scanner;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+// }
 public class UniverseTest {
 
 	@Test
