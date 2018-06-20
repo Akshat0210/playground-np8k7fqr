@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 //}
-class AssestionsInJUnitFiveTest {
+class AssertionsInJUnitFiveTest {
 	
 	@Test
 	public void test() throws FileNotFoundException {
@@ -18,7 +18,7 @@ class AssestionsInJUnitFiveTest {
 		} catch (AssertionError ae) {
 			// { autofold
 			success(false);
-			msg("Oops! ğŸ", ae.getMessage());
+			msg("Oops! ğŸ?", ae.getMessage());
 			//}
 		}
 	}
