@@ -27,8 +27,8 @@ class HamcrestMatchersTest {
      }
      
      @Test
-     @DisplayName("Should contain the correct value")
-     void shouldContainCorrectValue() {
+     @DisplayName("Should contain the correct Entry")
+     void shouldContainCorrectEntry() {
          assertThat(map, hasEntry("John", "J"));
      }
 }
