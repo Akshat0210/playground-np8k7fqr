@@ -25,7 +25,7 @@ class AssertionsInJUnitFiveTest {
 	// { autofold
 	private static void success(boolean success) {
 		if(success)
-		msg("Awesome 👍");
+		msg("👍" ," Awesome");
 		System.out.println(String.format("TECHIO> success %s", success));
 	}
 	private static void msg(String channel, String msg) {
