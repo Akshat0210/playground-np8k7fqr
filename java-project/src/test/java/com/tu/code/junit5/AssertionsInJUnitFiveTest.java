@@ -13,7 +13,6 @@ class AssertionsInJUnitFiveTest {
 	@Test
 	public void test() throws FileNotFoundException {
 		try {
-			assertEquals("text", "text","failure - strings are not equal");
 			success(true);
 		} catch (AssertionError ae) {
 			// { autofold
