@@ -12,23 +12,5 @@ import static org.hamcrest.Matchers.hasEntry;
 
 class HamcrestMatchersTest {
 
-    private Map<String, String> map;
     
-	 @BeforeEach
-     void createAndInitializeMap() {
-         map = new HashMap<>();
-         map.put("John", "J");
-     }
-     
-     @Test
-     @DisplayName("Should contain the correct key")
-     void shouldContainCorrectKey() {
-         assertThat(map, hasKey("John"));
-     }
-     
-     @Test
-     @DisplayName("Should contain the correct Entry")
-     void shouldContainCorrectEntry() {
-         assertThat(map, hasEntry("John", "J"));
-     }
 }
