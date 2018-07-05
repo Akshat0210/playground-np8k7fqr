@@ -27,11 +27,7 @@ class AssertionsInJUnitFiveTest {
 		msg("👍" ," Awesome");
 		System.out.println(String.format("TECHIO> success %s", success));
 		System.out.println("TECHIO> terminal");
-		try {
-			Thread.sleep(300000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+		
 		
 	}
 	private static void msg(String channel, String msg) {
