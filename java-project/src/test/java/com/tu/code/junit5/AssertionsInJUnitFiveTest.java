@@ -27,7 +27,7 @@ class AssertionsInJUnitFiveTest {
 		msg("👍" ," Awesome");
 		System.out.println(String.format("TECHIO> success %s", success));
 		System.out.println("TECHIO> terminal");
-		TECHIO> terminal
+		
 	}
 	private static void msg(String channel, String msg) {
 		System.out.println(String.format("TECHIO> message --channel \"%s\" \"%s\"", channel, msg));
